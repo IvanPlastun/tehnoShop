@@ -30,7 +30,7 @@
 						</div>
 						<div class="col-6">
 							<div class="product-price"><?=$product['price']?> руб</div>
-							<a href="order.php" class="product-btn-order">Сделать заказ</a>
+							<a href="order.php?id=<?=$product['id']?>" class="product-btn-order">Сделать заказ</a>
 							<div class="product-desc">
 								<p><?=$product['description']?></p>
 							</div>

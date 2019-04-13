@@ -16,11 +16,11 @@
             <h4 class="item-title"><a href="product-page.php?id=<?=$product['id']?>"><?=$product['title']?></a></h4>
             <div class="card-btn">
                 <div class="card-btn__price">
-                    <?=$product['price']?> ₽
+                    <?=price_format($product['price'])?> ₽
                 </div>
-                <div class="card-btn__btn">
+                <a href="order.php?id=<?=$product['id']?>" class="card-btn__btn">
                     Купить
-                </div>
+                </a>
             </div>
         </div>
     </article>
