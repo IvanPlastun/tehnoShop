@@ -5,7 +5,6 @@
 		header('Location: index.php');
 	}
 	
-
 	$pageTitle = "Админ панель";
 	include("./templates/_head.php");
 ?>
